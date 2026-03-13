@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q1 Project</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+        }
+
+        header{
+            background-color: #ff4d88;
+            color: ghostwhite;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header img{
+            width: 100px;
+            height: 100px;
+            border-radius: 20%;
+        }
+
+        nav{
+            background-color: #ff2e73;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a{
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+        }
+
+        .container{
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section{
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color: #1e3d59;
+        }
+
+        /* My Works Layout */
+        .work-box{
+            width: 45%;
+            float: left;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.08);
+            background-color: #fafafa;
+        }
+
+        .work-box img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        form input, form textarea{
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        form button{
+            background-color: #1e3d59;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form button:hover{
+            background-color: #163047;
+        }
+
+        footer{
+            text-align: center;
+            padding: 15px;
+            background-color: #1e3d59;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- hi maam :p -->
+    <header>
+       
+        <img src="https://images.vexels.com/media/users/3/265102/isolated/preview/86e50ebe64050c577759e6db58b6ebc5-blue-heart-cartoon.png" alt="My Logo">
+        <h1>My Personal Portfolio</h1>
+        <p>Roblox is Life!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#works">My Works</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <h3>Hello, I’m Savannah Reyes
+
+            <p>
+                I am a Grade 9 student who enjoys exploring technology.
+                In this portfolio, I showcase my skills in HTML and CSS.
+            </p>
+
+            <p>
+                My goal is to improve my knowledge in ICT and become more confident in building websites in the future.
+            </p>
+        </div>
+
+                <div class="section" id="skills">
+            <h2>Skills, Hobbies, and Interests</h2>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Coding</li>
+                <li>Math</li>
+                <li>Writing</li>
+            </ul>
+
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Playing video games</li>
+                <li>Doing makeup</li>
+                <li>Playing volleyball</li>
+            </ul>
+
+            <h3>Interests</h3>
+            <ul>
+                <li>Astronomy</li>
+                <li>Video games</li>
+                <li>Anime</li>
+            </ul>
+        </div>
+
+
+        <div class="section" id="works">
+            <h2>My Works</h2>
+            <p>Below are some of my HTML projects that I created during the quarter:</p>
+
+    
+            <div class="work-box">
+                <h3>🎬Movie Recommendation Form</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRniLUrptrFjFfE3_B0EiU5qHt5IkBbyw02Aw&s">
+                <p>
+                    This project is a simple form where users can input movie preferences and recommendations.
+                </p>
+                <p>
+                    Link: <a href="file:///C:/Users/Ethan/Downloads/ICT%209/Q1/ICT%209E_Q1Drill2_Reyes.html" target="_blank">[Click here to view Movie Recommendation Form]</a>
+                </p>
+            </div>
+
+            <!-- Work 2 -->
+            <div class="work-box">
+                <h3>🍕Pizza on Demand</h3>
+                <img src="https://www.foodandwine.com/thmb/iJw7N_NfcPpd-EB8rpYbzrkSFIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tomato-mozzarella-pizza-FT-RECIPE0725-e7244e979c504188a049623668c15b2e.jpg">
+                <p>
+                    This project is an ordering form where users can customize their pizza and submit orders.
+                </p>
+                <p>
+                    Link: <a href="file:///C:/Users/Ethan/Downloads/ICT%209/Q1/ICT9E_HTML_Form_practice.html" target="_blank">[Click here to view Pizza on Demand]</a>
+                </p>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact Me</h2>
+
+            <div>
+                <form>
+                    <label><span style="font-weight:bold;">Name:</span></label><br>
+                    <input type="text" placeholder="Enter your name" required>
+
+                    <label><span style="font-weight:bold;">Email:</span></label><br>
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <label><span style="font-weight:bold;">Message:</span></label><br>
+                    <textarea rows="5" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>My Personal Portfolio - ICT9 Q1 Project</p>
+    </footer>
+
+</body>
+</html>
